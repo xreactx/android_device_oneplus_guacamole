@@ -10,7 +10,7 @@ DEVICE_PATH := device/oneplus/guacamole
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro,oneplus7pro,guacamole
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
